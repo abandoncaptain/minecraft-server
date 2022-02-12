@@ -1,0 +1,16 @@
+{
+  "forEntity": "alexsmobs:alligator_snapping_turtle",
+  "traits": [
+    {
+      "type": "traitMoistSkin"
+    },
+    {
+      "swimMultiplier": 4.0,
+      "landMultiplier": 0.1,
+      "type": "traitSwimmer"
+    },
+    {
+      "type": "traitWaterBreather"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "forEntity": "alexsmobs:mimic_octopus",
+  "traits": [
+    {
+      "type": "traitSink"
+    },
+    {
+      "type": "traitWaterBreather"
+    }
+  ]
+}

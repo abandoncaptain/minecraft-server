@@ -1,0 +1,17 @@
+{
+	id: "e6afa162-d808-44f5-9107-5868dc20c476"
+	type: "player"
+	player_name: "abandoncaptian"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "abandoncaptian"
+		"ftbteams:color": "#59E2FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

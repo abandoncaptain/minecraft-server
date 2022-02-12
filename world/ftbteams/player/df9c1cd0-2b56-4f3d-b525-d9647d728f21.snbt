@@ -1,0 +1,19 @@
+{
+	id: "df9c1cd0-2b56-4f3d-b525-d9647d728f21"
+	type: "player"
+	player_name: "FusionPak"
+	ranks: {
+		df9c1cd0-2b56-4f3d-b525-d9647d728f21: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "FusionPak"
+		"ftbteams:color": "#FA59FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

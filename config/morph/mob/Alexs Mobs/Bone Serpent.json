@@ -1,0 +1,15 @@
+{
+  "forEntity": "alexsmobs:bone_serpent",
+  "traits": [
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitWaterSensitivity"
+    },
+    {
+      "type": "abilityRideable",
+      "requiresSaddle": true
+    }
+  ]
+}

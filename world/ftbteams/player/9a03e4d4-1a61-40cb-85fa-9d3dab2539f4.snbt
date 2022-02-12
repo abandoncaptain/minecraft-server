@@ -1,0 +1,17 @@
+{
+	id: "9a03e4d4-1a61-40cb-85fa-9d3dab2539f4"
+	type: "player"
+	player_name: "SpenceGaming16"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "SpenceGaming16"
+		"ftbteams:color": "#FF59DE"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

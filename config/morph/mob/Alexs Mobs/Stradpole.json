@@ -1,0 +1,15 @@
+{
+  "forEntity": "alexsmobs:stradpole",
+  "traits": [
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitWaterSensitivity"
+    },
+    {
+      "type": "abilityRideable",
+      "requiresSaddle": true
+    }
+  ]
+}

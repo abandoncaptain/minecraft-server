@@ -1,0 +1,320 @@
+{
+  "entries": [
+    {
+      "item": "alexsmobs:animal_dictionary",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:materials_and_you",
+      "emc": 1
+    },
+    {
+      "item": "theoneprobe:probenote",
+      "emc": 1
+    },
+    {
+      "item": "ars_nouveau:worn_notebook",
+      "emc": 1
+    },
+    {
+      "item": "integrateddynamics:on_the_dynamics_of_integration",
+      "emc": 1
+    },
+    {
+      "item": "chisel:marble/raw",
+      "emc": 1
+    },
+    {
+      "item": "chisel:limestone/raw",
+      "emc": 1
+    },
+    {
+      "item": "chisel:basalt/raw",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 1536
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "emc": 128
+    },
+    {
+      "item": "ars_nouveau:mana_gem",
+      "emc": 8192
+    },
+    {
+      "item": "create:zinc_ingot",
+      "emc": 256
+    },
+    {
+      "item": "create:brass_ingot",
+      "emc": 256
+    },
+    {
+      "item": "industrialforegoing:plastic",
+      "emc": 256
+    },
+    {
+      "item": "thermal:enderium_ingot",
+      "emc": 5947
+    },
+    {
+      "item": "create:limestone_cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "create:limestone",
+      "emc": 16
+    },
+    {
+      "item": "cavesandcliffs:glow_berries",
+      "emc": 16
+    },
+    {
+      "item": "cavesandcliffs:azalea_leaves",
+      "emc": 1
+    },
+    {
+      "item": "cavesandcliffs:amethyst_block",
+      "emc": 32
+    },
+    {
+      "item": "cavesandcliffs:deepslate",
+      "emc": 8
+    },
+    {
+      "item": "cavesandcliffs:cobbled_deepslate",
+      "emc": 8
+    },
+    {
+      "item": "cavesandcliffs:calcite",
+      "emc": 16
+    },
+    {
+      "item": "cavesandcliffs:tuff",
+      "emc": 1
+    },
+    {
+      "item": "cavesandcliffs:dripstone_block",
+      "emc": 8
+    },
+    {
+      "item": "cavesandcliffs:rooted_dirt",
+      "emc": 1
+    },
+    {
+      "item": "cavesandcliffs:glow_ink_sac",
+      "emc": 32
+    },
+    {
+      "item": "cavesandcliffs:spore_blossom",
+      "emc": 32
+    },
+    {
+      "item": "cavesandcliffs:moss_block",
+      "emc": 1
+    },
+    {
+      "item": "cavesandcliffs:amethyst_shard",
+      "emc": 32
+    },
+    {
+      "item": "thermal:niter",
+      "emc": 128
+    },
+    {
+      "item": "thermal:sulfur",
+      "emc": 128
+    },
+    {
+      "item": "thermal:apatite",
+      "emc": 128
+    },
+    {
+      "item": "thermal:cinnabar",
+      "emc": 256
+    },
+    {
+      "item": "druidcraft:fiery_glass",
+      "emc": 128
+    },
+    {
+      "item": "quark:marble",
+      "emc": 1
+    },
+    {
+      "item": "quark:limestone",
+      "emc": 1
+    },
+    {
+      "item": "quark:jasper",
+      "emc": 1
+    },
+    {
+      "item": "quark:slate",
+      "emc": 1
+    },
+    {
+      "item": "quark:basalt",
+      "emc": 1
+    },
+    {
+      "item": "quark:myalite",
+      "emc": 1
+    },
+    {
+      "item": "create:weathered_limestone",
+      "emc": 16
+    },
+    {
+      "item": "quark:elder_prismarine",
+      "emc": 1024
+    },
+    {
+      "item": "quark:brimstone",
+      "emc": 16
+    },
+    {
+      "item": "integrateddynamics:menril_berries",
+      "emc": 8
+    },
+    {
+      "item": "byg:scoria_cobblestone",
+      "emc": 49
+    },
+    {
+      "item": "quark:root_item",
+      "emc": 64
+    },
+    {
+      "item": "byg:anthracite",
+      "emc": 128
+    },
+    {
+      "item": "betternether:cincinnasite",
+      "emc": 384
+    },
+    {
+      "item": "minecraft:shroomlight",
+      "emc": 64
+    },
+    {
+      "item": "rftoolsbase:dimensionalshard",
+      "emc": 0
+    },
+    {
+      "item": "projectred-core:silicon",
+      "emc": 145
+    },
+    {
+      "item": "betternether:nether_reed",
+      "emc": 32
+    },
+    {
+      "item": "betternether:nether_ruby",
+      "emc": 256
+    },
+    {
+      "item": "tconstruct:clear_glass",
+      "emc": 1
+    },
+    {
+      "item": "draconicevolution:draconium_ingot",
+      "emc": 16380
+    },
+    {
+      "item": "byg:purple_sand",
+      "emc": 16
+    },
+    {
+      "item": "byg:white_sand",
+      "emc": 16
+    },
+    {
+      "item": "byg:blue_sand",
+      "emc": 16
+    },
+    {
+      "item": "byg:pink_sand",
+      "emc": 16
+    },
+    {
+      "item": "byg:black_sand",
+      "emc": 16
+    },
+    {
+      "item": "crumbs:cobbled_andesite",
+      "emc": 16
+    },
+    {
+      "item": "tconstruct:sky_slime_ball",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:ender_slime_ball",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:blood_slime_ball",
+      "emc": 32
+    },
+    {
+      "item": "byg:peat",
+      "emc": 1
+    },
+    {
+      "item": "byg:meadow_grass_block",
+      "emc": 1
+    },
+    {
+      "item": "byg:meadow_grass_path",
+      "emc": 1
+    },
+    {
+      "item": "byg:meadow_dirt",
+      "emc": 1
+    },
+    {
+      "item": "byg:glowcelium_block",
+      "emc": 1
+    },
+    {
+      "item": "byg:overgrown_dacite",
+      "emc": 1
+    },
+    {
+      "item": "byg:overgrown_stone",
+      "emc": 1
+    },
+    {
+      "item": "byg:podzol_dacite",
+      "emc": 1
+    },
+    {
+      "item": "cavesandcliffs:azalea",
+      "emc": 16
+    },
+    {
+      "item": "cavesandcliffs:big_dripleaf",
+      "emc": 16
+    },
+    {
+      "item": "cavesandcliffs:small_dripleaf",
+      "emc": 8
+    },
+    {
+      "item": "cavesandcliffs:glow_lichen",
+      "emc": 8
+    },
+    {
+      "item": "cavesandcliffs:hanging_roots",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:ichor_slime_ball",
+      "emc": 32
+    }
+  ]
+}

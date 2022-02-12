@@ -1,0 +1,17 @@
+{
+	id: "b0dfb7ea-8f62-480d-97c8-ba50c3fa5c9a"
+	type: "player"
+	player_name: "DaggerKill123"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "DaggerKill123"
+		"ftbteams:color": "#59FF89"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

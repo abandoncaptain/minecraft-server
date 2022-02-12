@@ -1,0 +1,206 @@
+# Version of the specs, only for internal usage if this format should ever change drastically
+_specver: 2
+
+# modpack related settings, changes the supposed to change the visual appearance of the launcher
+modpack:
+  # Name of the mod pack, that is displayed in various places where it fits
+  name: Project Architect
+
+  # Description
+  description: The goal of this modpack is to make the process of starting to build much easier. With this modpack, you can invest less time mining and more time placing blocks.
+
+
+# settings regarding the installation of the modpack
+install:
+  # version of minecraft, needs the exact version
+  mcVersion: 1.16.5
+
+  # exact version of forge or fabric that is supposed to be used
+  # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
+  loaderVersion: ~
+
+  # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
+  # supports variables: {{@loaderversion@}} and {{@mcversion@}}
+  # For forge: "http://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
+  # For Fabric: "https://maven.fabricmc.net/net/fabricmc/fabric-installer/{{@loaderversion@}}/fabric-installer-{{@loaderversion@}}.jar"
+  installerUrl: http://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
+
+  # Installer Arguments
+  # These Arguments have to be passed to the installer
+  #
+  # For Fabric:
+  # installerArguments:
+  #    - "server"
+  #    - "-downloadMinecraft"
+  #    - "-snapshot"
+  #    - "-mcversion"
+  #    - "1.16.4"
+  #    - "-loader"
+  #    - "0.10.6+build.214"
+  #
+  # For Forge:
+  # installerArguments:
+  #   - "--installServer"
+  installerArguments:
+    - "--installServer"
+
+  # Link to where the file where the modpack can be distributed
+  # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
+  modpackUrl: https://drive.google.com/uc?export=download&id=1TKAI2_GJkiXFKA4vQrSpbQwHKWtq494C
+
+  # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
+  # current supported formats:
+  # - curseforge or curse
+  # - curseid
+  # - zip or zipfile
+  modpackFormat: curse
+
+  # Settings which are specific to the format used, might not be needed in some casese
+  formatSpecific:
+    # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
+    ignoreProject:
+      - 367706 # Fancy Menu
+      - 410295 # Konkrete
+      - 254284 # AmbientSounds 4
+      - 323976 # Better Animations Collection
+      - 446253 # Better Biome Blend
+      - 401648 # Better F3
+      - 268324 # Blur
+      - 431587 # Charmonium Reforged
+      - 407206 # Chat Heads
+      - 236484 # Chunk Animator
+      - 308240 # Cherished Worlds
+      - 285684 # Coloured Tooltips
+      - 267602 # ConnectedTexturesMod
+      - 250398 # Controlling
+      - 233071 # Crafting Tweaks
+      - 297038 # CraftPresence
+      - 232131 # Default Options
+      - 231275 # Ding
+      - 511770 # Dripping Loading Screen
+      - 430824 # Dynamic Music
+      - 238891 # Dynamic Surroundings
+      - 284324 # Emojiful
+      - 250419 # Enchantment Descriptions
+      - 409087 # Entity Culling
+      - 363363 # Extreme Sound Muffler
+      - 495693 # Farsight
+      - 431430 # FlickerFix
+      - 280294 # FPS Reducer
+      - 252188 # GooglyEyes
+      - 491233 # Halogen
+      - 271492 # I Know What I'm Doing
+      - 513769 # Item Borders
+      - 499326 # Item Stiching Fix
+      - 270441 # ItemPhysic Lite
+      - 417645 # Just Enough Professions
+      - 240630 # Just Enough Resources
+      - 325492 # Light Overlay
+      - 506757 # Loot Beams
+      - 238747 # Mod Name Tooltip
+      - 60089  # Mouse Tweaks
+      - 441114 # Neko's Enchanted Books
+      - 401014 # Nicephore
+      - 433760 # Not Enough Animations
+      - 513857 # OAuth
+      - 293496 # OldJavaWarning
+      - 314002 # Overloaded Armor Bar
+      - 351441 # Pick Up Notifier
+      - 433068 # Presence Footsteps
+      - 407174 # Shutup Experimental Settings!
+      - 306555 # Sound Device Options
+      - 222789 # Sound Filters
+      - 306549 # Tips
+      - 282313 # TipTheScales
+      - 377109 # Tool Stats
+      - 441024 # TRansliterationLib
+      - 504908 # Traveler's Titles
+      - 495842 # Windowed Fullscreen
+
+  # The base path where the server should be installed to, ~ for current path
+  baseInstallPath: ~
+
+  # a list of files which are supposed to be ignored when installing it from the client files
+  # this can either use regex or glob {default glob: https://docs.oracle.com/javase/8/docs/api/java/nio/file/FileSystem.html#getPathMatcher-java.lang.String-}
+  # specify with regex:.... or glob:.... if you want to force a matching type
+  ignoreFiles:
+    - config/fancymenu/**
+    - config/ichunutil/head/**
+    - config/konkrete/**
+    - config/oauth-client.toml
+    - kubejs/client_scripts/**
+    - global_resource_packs/**
+    - credits.txt
+
+  # This makes the program check the folder for whether it is supposed to use the
+  checkFolder: yes
+
+  # Whether to install the Loader (Forge or Fabric) or not, should always be yes/true unless you only want to install the pack
+  installLoader: yes
+
+# settings regarding the launching of the pack
+launch:
+  # applies the launch wrapper to fix sponge for a few mods
+  spongefix: no
+
+  # Use a RAMDisk for the world folder
+  # case-sensitive; use only lowercase `yes` or `no`
+  # NOTE: The server must have run once fully before switching to `yes`!
+  ramDisk: no
+
+  # checks with the help of a few unrelated server whether the server is online
+  checkOffline: no
+
+  # specifies the max amount of ram the server is supposed to launch with
+  maxRam: 4G
+
+  # specifies whether the server is supposed to auto restart after crash
+  autoRestart: yes
+
+  # after a given amount of crashes in a given time the server will stop auto restarting
+  crashLimit: 10
+
+  # Time a crash should be still accounted for in the {crashLimit}
+  # syntax is either [number]h or [number]min or [number]s
+  crashTimer: 60min
+
+  # Arguments that need to go before the 'java' argument, something like linux niceness
+  # This is only a string, not a list.
+  preJavaArgs: ~
+
+  # Start File Name, variables: {{@loaderversion@}} and {{@mcversion@}}
+  # This has to be the name the installer spits out
+  # For Forge 1.12-: "forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar"
+  # For Forge 1.13+: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
+  # For Fabric: "fabric-server-launch.jar"
+  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}.jar
+
+  # In case you have multiple javas installed you can add a absolute path to it here
+  # if the value is "", null, or ~ then 'java' from PATH is going to be used
+  # Example: "\"C:/Program Files/Java/jre1.8.0_201/bin/java.exe\""
+  forcedJavaPath: ~
+
+  # Java args that are supposed to be used when the server launches
+  # keep in mind java args often need ' - ' in front of it to work, use clarifying parentheses to make sure it uses it correctly
+  # Keep in mind that some arguments only work on JRE 1.8
+  javaArgs:
+    - "-XX:+UseG1GC"
+    - "-XX:+ParallelRefProcEnabled"
+    - "-XX:MaxGCPauseMillis=200"
+    - "-XX:+UnlockExperimentalVMOptions"
+    - "-XX:+DisableExplicitGC"
+    - "-XX:+AlwaysPreTouch"
+    - "-XX:G1NewSizePercent=30"
+    - "-XX:G1MaxNewSizePercent=40"
+    - "-XX:G1HeapRegionSize=8M"
+    - "-XX:G1ReservePercent=20"
+    - "-XX:G1HeapWastePercent=5"
+    - "-XX:G1MixedGCCountTarget=4"
+    - "-XX:InitiatingHeapOccupancyPercent=15"
+    - "-XX:G1MixedGCLiveThresholdPercent=90"
+    - "-XX:G1RSetUpdatingPauseTimePercent=5"
+    - "-XX:SurvivorRatio=32"
+    - "-XX:+PerfDisableSharedMem"
+    - "-XX:MaxTenuringThreshold=1"
+    - "-XX:ConcGCThreads=4"
+    - "-XX:ParallelGCThreads=12"

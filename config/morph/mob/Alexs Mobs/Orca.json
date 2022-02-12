@@ -1,0 +1,14 @@
+{
+  "forEntity": "alexsmobs:orca",
+  "traits": [
+    {
+      "type": "traitSwimmer",
+      "swimMultiplier": 2.0,
+      "landMultiplier": 0.025
+    },
+    {
+      "type": "traitWaterBreather",
+      "suffocatesOnLand": true
+    }
+  ]
+}

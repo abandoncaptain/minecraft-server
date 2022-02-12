@@ -1,0 +1,11 @@
+{
+   "forEntity":"alexsmobs:warped_mosco",
+   "traits":[
+      {
+         "type":"traitHostile"
+      },
+      {
+         "type":"abilityFlight"
+      }
+   ]
+}

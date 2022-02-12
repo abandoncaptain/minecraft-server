@@ -1,0 +1,21 @@
+{
+  "forEntity": "alexsmobs:enderiophage",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitSunburn"
+    },
+    {
+      "type": "traitUndead"
+    },
+    {
+      "type": "abilityFlight",
+      "upgradeFor": "abilityFlightFlap"
+    },
+    {
+      "type": "abilityFlightFlap"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "forEntity": "alexsmobs:mantis_shrimp",
+  "traits": [
+    {
+      "type": "traitSink"
+    },
+    {
+      "type": "traitWaterBreather"
+    }
+  ]
+}

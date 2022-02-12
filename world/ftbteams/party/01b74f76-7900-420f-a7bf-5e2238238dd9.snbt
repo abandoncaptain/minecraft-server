@@ -1,0 +1,33 @@
+{
+	id: "01b74f76-7900-420f-a7bf-5e2238238dd9"
+	type: "party"
+	owner: "e6afa162-d808-44f5-9107-5868dc20c476"
+	ranks: {
+		b0dfb7ea-8f62-480d-97c8-ba50c3fa5c9a: "member"
+		df9c1cd0-2b56-4f3d-b525-d9647d728f21: "invited"
+		e6afa162-d808-44f5-9107-5868dc20c476: "owner"
+		9a03e4d4-1a61-40cb-85fa-9d3dab2539f4: "member"
+		c726274b-090c-4b28-8410-d387eafb0b7a: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "ELITE Squad"
+		"ftbteams:color": "#59E2FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1644614875642L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"abandoncaptian\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "e6afa162-d808-44f5-9107-5868dc20c476", date: 1644614875651L, text: "{\"color\":\"green\",\"text\":\"Invited Spacewolf99\"}" }
+		{ from: "e6afa162-d808-44f5-9107-5868dc20c476", date: 1644615136938L, text: "{\"color\":\"green\",\"text\":\"Invited Spacewolf99\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1644615147066L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Spacewolf99\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "e6afa162-d808-44f5-9107-5868dc20c476", date: 1644622392408L, text: "{\"color\":\"green\",\"text\":\"Invited DaggerKill123\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1644622395069L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"DaggerKill123\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "e6afa162-d808-44f5-9107-5868dc20c476", date: 1644626700460L, text: "{\"color\":\"green\",\"text\":\"Invited FusionPak\"}" }
+		{ from: "e6afa162-d808-44f5-9107-5868dc20c476", date: 1644626705357L, text: "{\"color\":\"green\",\"text\":\"Invited SpenceGaming16\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1644626732570L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"SpenceGaming16\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

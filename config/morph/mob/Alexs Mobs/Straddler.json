@@ -1,0 +1,15 @@
+{
+  "forEntity": "alexsmobs:straddler",
+  "traits": [
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitWaterSensitivity"
+    },
+    {
+      "type": "abilityRideable",
+      "requiresSaddle": true
+    }
+  ]
+}

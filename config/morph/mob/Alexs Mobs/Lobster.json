@@ -1,0 +1,11 @@
+{
+  "forEntity": "alexsmobs:lobster",
+  "traits": [
+    {
+      "type": "traitSink"
+    },
+    {
+      "type": "traitWaterBreather"
+    }
+  ]
+}
